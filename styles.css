@@ -18,9 +18,16 @@ body {
   font-size: 1.1rem;
 }
 
+.projects a{
+  color: white;
+}
+
 a {
-  text-decoration: none;
-  color: ;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: gray;
 }
 
 
@@ -110,4 +117,3 @@ a {
   border-radius: 20px;
   color: rgb(15, 15, 44);
 }
-

@@ -30,7 +30,6 @@ a:hover {
   color: gray;
 }
 
-
 .presentation h2{
   margin-bottom: 10px;
 }
@@ -47,14 +46,14 @@ a:hover {
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
 }
 
 /* Modules */
 
 .selfie {
   border-radius: 50%;
-  box-shadow: 5px 3px  rgba(109, 11, 190, 0.493);
+  box-shadow: 5px 3px rgb(17, 17, 75);
   margin-bottom: 10px;
 }
 
@@ -77,7 +76,7 @@ a:hover {
 }
 
 .project {
-  max-width: 250px;
+  /* max-width: 250px; */
   margin: 0 auto;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 10px;
@@ -93,12 +92,21 @@ a:hover {
   margin: 5px 0;
 }
 
-.project img{
-  width: 250px;
-}
-
 .contact-item {
   margin: 10px 0;
+  padding: 10px;
+  background-color: rgb(15, 15, 44);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px red;
+}
+
+.contact-item a{
+  color: white;
+}
+
+.contact-item a:hover{
+  color: gray;
 }
 
 /* Layout */
@@ -116,4 +124,55 @@ a:hover {
   background-color: white;
   border-radius: 20px;
   color: rgb(15, 15, 44);
+}
+
+@media screen and (min-width: 835px) {
+
+  .up-desktop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .aboutme {
+    width: 50%;
+  }
+
+  .selfie {
+    width: 300px;
+    height: 300px;
+  }
+
+  .presentation {
+    width: 50%;
+    height: 100%;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-item {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(15, 15, 44);
+    color: white;
+    box-shadow: 3px 3px red;
+  }
+
+  .contact-item a{
+    color: white;
+  }
+
+  .contact-item a:hover{
+    color: gray;
+  }
+
+  .contacts {
+    display: flex;
+    justify-content: space-around;
+  }
+
 }

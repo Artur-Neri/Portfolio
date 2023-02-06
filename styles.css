@@ -98,7 +98,7 @@ a:hover {
   background-color: rgb(15, 15, 44);
   color: white;
   border-radius: 10px;
-  box-shadow: 3px 3px red;
+  box-shadow: 3px 3px rgb(5, 163, 255);
 }
 
 .contact-item a{
@@ -163,7 +163,6 @@ a:hover {
     padding: 20px;
     background-color: rgb(15, 15, 44);
     color: white;
-    box-shadow: 3px 3px red;
   }
 
   .contact-item a{

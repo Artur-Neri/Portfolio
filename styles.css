@@ -55,6 +55,8 @@ a:hover {
   border-radius: 50%;
   box-shadow: 5px 3px rgb(17, 17, 75);
   margin-bottom: 10px;
+  width: 220px;
+  height: 220px;
 }
 
 .name {
@@ -81,6 +83,11 @@ a:hover {
   border: 2px solid rgb(255, 255, 255);
   border-radius: 10px;
   overflow: hidden;
+  transition: .3s ease-in-out;
+}
+
+.project:hover{
+  transform: scale(1.08);
 }
 
 .project-title {
@@ -144,8 +151,8 @@ a:hover {
   }
 
   .selfie {
-    width: 300px;
     height: 300px;
+    width: 300px;
   }
 
   .presentation {

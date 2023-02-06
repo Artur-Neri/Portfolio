@@ -1,0 +1,113 @@
+/* My fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Solitreo&display=swap');
+
+/* Reset */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base */
+
+body {
+  color: white;
+  background-color: rgb(15, 15, 44);
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: ;
+}
+
+
+.presentation h2{
+  margin-bottom: 10px;
+}
+
+.presentation p{
+  text-align: justify;
+}
+
+.container {
+  margin: 25px auto;
+  max-width: 1127px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Modules */
+
+.selfie {
+  border-radius: 50%;
+  box-shadow: 5px 3px  rgba(109, 11, 190, 0.493);
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: 'Solitreo', cursive;
+  font-size: 1.3rem;
+}
+
+.hobbies {
+  margin-top: 10px;
+  color: rgb(168, 168, 168);
+}
+
+.university, .hobbies, .occupation, .projects {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.projects h1{
+  margin-bottom: 15px;
+}
+
+.project {
+  max-width: 250px;
+  margin: 0 auto;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-title {
+  font-size: 1.5rem;
+}
+
+.project p{
+  text-align: center;
+  margin: 5px 0;
+}
+
+.project img{
+  width: 250px;
+}
+
+.contact-item {
+  margin: 10px 0;
+}
+
+/* Layout */
+
+.aboutme, .projects {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.presentation, .contact {
+  margin: 20px 30px 20px 30px ;
+  padding: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  color: rgb(15, 15, 44);
+}
+

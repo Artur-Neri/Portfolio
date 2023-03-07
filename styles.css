@@ -86,10 +86,6 @@ a:hover {
   transition: .3s ease-in-out;
 }
 
-.project:hover{
-  transform: scale(1.08);
-}
-
 .project-title {
   font-size: 1.5rem;
 }
